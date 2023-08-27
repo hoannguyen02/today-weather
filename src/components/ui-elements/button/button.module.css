@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: var(--p-space-8);
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  border: solid 1px var(--s-border);
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: solid 1px var(--s-border);
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightActions {
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .content {
+    width: 30%;
+  }
+}

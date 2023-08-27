@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--p-space-4);
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.container {
+  border: solid 1px var(--p-border);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: var(--p-space-4);
+}

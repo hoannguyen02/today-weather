@@ -1,0 +1,7 @@
+.container {
+  margin-top: var(--p-space-10);
+}
+
+.content {
+  padding: 8px 0;
+}

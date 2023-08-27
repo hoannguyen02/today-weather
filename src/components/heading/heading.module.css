@@ -1,0 +1,6 @@
+.heading {
+  border-bottom: solid 1px var(--p-border);
+  width: 100%;
+  display: flex;
+  padding-bottom: var(--p-space-1);
+}

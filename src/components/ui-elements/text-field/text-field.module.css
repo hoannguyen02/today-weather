@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-right: var(--p-space-2);
+  margin-bottom: var(--p-space-2);
+}
+
+.input {
+  height: var(--p-space-8);
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  border: solid 1px var(--s-border);
+  min-width: 220px;
+  padding: 4px 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .label {
+    margin-bottom: 0;
+  }
+}

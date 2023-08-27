@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #f3f3f3;
+  height: var(--p-space-8);
+  width: var(--p-space-8);
+  justify-content: center;
+}
